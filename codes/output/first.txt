@@ -1,0 +1,94 @@
+['start', 'declaration_parameter_assign', 'declaration_parameter_suffix', 'assignment_expression_list_suffix', 'assignment_expression_list', 'arithmetic_expression', 'expression_list_suffix', 'expression_list', 'function_parameter_list', 'function_parameter_list_suffix', 'statement_list', 'sstart']
+type_specifier
+char float int double void  
+
+statement
+while if ; char float { int double identifier continue return void for break  
+
+start
+void char float int double  $ 
+
+selection_statement
+if  
+
+arithmetic_expression
+- < != * > / ^ == & + >= % <=  $ 
+
+expression_list_suffix
+,  $ 
+
+expression
+number identifier (  
+
+declaration_parameter_suffix
+,  $ 
+
+function_expression
+identifier  
+
+declaration
+void char float int double  
+
+declaration_parameter_assign
+=  $ 
+
+primary_expression
+number identifier (  
+
+assignment_operator
+^= = &= |= += *= -= %= /=  
+
+function_parameter
+void char float int double  
+
+constant_expression
+number identifier (  
+
+expression_statement
+; identifier  
+
+function_definition
+void char float int double  
+
+function_parameter_list
+char void int double float  $ 
+
+declaration_parameter
+identifier  
+
+compound_statement
+{  
+
+function_parameter_list_suffix
+void ,  $ 
+
+jump_statement
+return break continue  
+
+assignment_expression_list
+identifier  $ 
+
+sstart
+void char float int double  $ 
+
+assignment_expression
+identifier  
+
+operator
+- < != * > / ^ == & + >= % <=  
+
+expression_list
+number identifier (  $ 
+
+assignment_expression_list_suffix
+,  $ 
+
+iteration_statement
+while for  
+
+external_declaration
+void char float int double  
+
+statement_list
+while if ; float { int double identifier continue void for break char return  $ 
+
